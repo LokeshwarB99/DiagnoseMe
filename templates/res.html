@@ -124,7 +124,7 @@
             </div>
             <div style="vertical-align: middle;padding-top: 40px;">
                 <div class="b" style="border-radius: 10px;background-color: red;">
-                    <div style="padding: 10px;right: 20%;justify-self: center;">
+                    <div style="padding: 10px;right: 20%;justify-self: center;"onclick="helplineCall()">
                         Call Helpline Number <img style="width: 27px;" src="/static/call.svg" alt=""> +911
                     </div>
                 </div>
@@ -135,6 +135,9 @@
         function linkToGoogle(){
             const x = document.getElementById('secret').innerHTML
             window.location.href='https://www.google.com/search?q='+x
+        }
+        function helplineCall(){
+            window.location.href='https://www.indiacustomercare.com/all-india-emergency-contact-toll-free-numbers'
         }
     </script>
 </body>
